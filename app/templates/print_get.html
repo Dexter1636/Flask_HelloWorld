@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Print</title>
+</head>
+
+<body>
+    <h1>Hello Print</h1>
+    <p>------------------------------</br></p>
+
+    <form action="{{url_for('print_str')}}" method = 'POST'>
+        <p>Print:</p>
+        <input type='text' size='30' name='str'>
+        <input type='submit' value='Print'>
+    </form>
+</body>
+
+</html>
